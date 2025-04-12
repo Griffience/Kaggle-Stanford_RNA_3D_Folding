@@ -2,7 +2,7 @@
 
 #### *author - Chengzhi Jiang*
 
-**持续更新中 | 最后更新：2025-04-01**  
+**持续更新中 | 最后更新：2025-04-12**  
 [![Kaggle Profile](https://img.shields.io/badge/Kaggle-Profile-blue?logo=kaggle)](https://www.kaggle.com/code/chengzhijiang/rnafoldingpytorch-v1?scriptVersionId=230963836)
 
 ## 项目概述
