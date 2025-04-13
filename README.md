@@ -13,7 +13,7 @@
 
 
 ## 项目架构
-BadVersion:一开始作者尝试通过CNN捕获特征,采用了kaggle上基于cnn的baseline,并基于此进行优化,但发现效果并不理想
+BadVersion:一开始作者尝试通过CNN捕获特征,采用了kaggle上基于cnn的baseline,并基于此进行优化,但发现效果并不理想   
 Pro:作者复现了RibonanzaNet的代码,并基于此框架进行优化​
 
 ### 比赛背景
