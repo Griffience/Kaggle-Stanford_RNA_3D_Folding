@@ -7,14 +7,10 @@
 
 ## 项目概述
 本项目是作者首次参与的Kaggle竞赛代码仓库，记录从基线模型到优化方案的完整迭代过程。通过本仓库您可以：
-- 🚀 复现不同阶段的模型方案（v1.0 ~ vN.0）
+- 🚀 获取作者优化模型的代码进行复现
 - 📊 查看我的数据预处理、特征工程演进路线
 - 🤝 ​**欢迎通过我的邮箱提交您的批评指正以及优化建议 2376305851@qq.com**
 
-
-## 项目架构
-BadVersion:一开始作者尝试通过CNN捕获特征,采用了kaggle上基于cnn的baseline,并基于此进行优化,但发现效果并不理想   
-Pro:作者复现了RibonanzaNet的代码,并基于此框架进行优化​
 
 ### 比赛背景
 > RNA is vital to life’s most essential processes, but despite its significance, predicting its 3D structure is still difficult. Deep learning breakthroughs like AlphaFold have transformed protein structure prediction, but progress with RNA has been much slower due to limited data and evaluation methods.
@@ -24,5 +20,20 @@ This competition is made possible through a worldwide collaborative effort inclu
 > ​**赛事类型**：Featured Competition  
 > ​**技术方向**：深度学习   
 > ​**评估指标**：TM-score
+
+
+### 项目架构
+
+├─ BadVerion  
+│  └─ 存放一开始作者尝试通过 CNN 捕获特征的方法，采用了 Kaggle 上基于 CNN 的 baseline，并基于此进行优化，但发现效果并不理想分数极低  
+├─ Pro  
+│  ├─ Baseline  
+│  │  └─ 我参考并复现的 RibonanzaNet 的核心代码  
+│  ├─ MyOptimization  
+│  │  └─ 我对于 RibonanzaNet 的改造  
+│  └─ README.md  
+│     └─ 关于我的魔改模型的 README  
+└─ README  
+   └─ 有关这次比赛的信息 
 
 #### *This Repository is for me(a s1mple student) to record the game,tks for ur comments*
