@@ -1,0 +1,51 @@
+# Model hyperparameters
+learning_rate: 0.0001  # The learning rate for the optimizer
+batch_size: 3        # Number of samples per batch
+test_batch_size: 8        # Number of samples per batch
+epochs: 50            # Total training epochs
+cos_epoch: 35  #Which round to adjust
+dropout: 0.05     # Dropout regularization rate
+weight_decay: 0.0001
+k: 5
+ninp: 256
+nlayers: 9
+nclass: 2
+ntoken: 5 #AUGC + padding/N token
+nhead: 8
+grad_clip: 0.1
+d_clamp: 30
+#use_bpp: False
+use_flip_aug: true
+#bpp_file_folder: "../../input/bpp_files/"
+gradient_accumulation_steps: 1
+use_triangular_attention: false
+pairwise_dimension: 64
+hidden_dimension: 256
+mixed_precision: 'fp16'    #The Official mixprecision is bf16 ,but restricted by the hardware we use fp16
+use_gradient_checkpoint: true
+
+#Time Dealing
+cutoff_date: "2020-01-01"
+test_cutoff_date: "2022-05-01"
+
+#DataProcessing Relative 
+max_len: 384
+max_len_filter: 9999999
+min_len_filter: 10
+
+#Data scaling
+use_data_percentage: 1
+use_dirty_data: true # turn off for data scaling and data dropout experiments
+
+# Other configurations
+fold: 0
+nfolds: 6
+# input_dir: "data/"
+gpu_id: "0"
+
+# Other parameters
+seed: 0
+loss_power_scale: 1.0
+max_cycles: 1
+structural_violation_epoch: 50
+balance_weight: false
