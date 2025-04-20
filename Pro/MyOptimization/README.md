@@ -33,11 +33,11 @@ Yoyoyo～这里是菜鸡学生第一次硬刚模型优化！在研究PointNet的
   
  
 ## 日志
-2025/4/1 - 复现完代码，提出mamba计算复杂度换精度方案
-2025/4/4 - 初步完成代码框架，添加mambablock,改造cnn->separableCNN
-2025/4/10 - emo了，kaggle的后端有问题，scoring error
-2025/4/19 - GPU显存炸缸啦，添加梯度检查点，计算时间换gpu显存 ->结果跑的巨慢
-2025/4/20 - 练到 Epoch 27 崩溃，Dropout 反向传播出 NaN，貌似是Attention 输出中包含了 NaN，进而影响 Dropout，再进一步反向时传播为 NaN
+2025/4/1 - 复现完代码，提出mamba计算复杂度换精度方案   
+2025/4/4 - 初步完成代码框架，添加mambablock,改造cnn->separableCNN   
+2025/4/10 - emo了，kaggle的后端有问题，scoring error   
+2025/4/19 - GPU显存炸缸啦，添加梯度检查点，计算时间换gpu显存 ->结果跑的巨慢   
+2025/4/20 - 练到 Epoch 27 崩溃，Dropout 反向传播出 NaN，貌似是Attention 输出中包含了 NaN，进而影响 Dropout，再进一步反向时传播为 NaN   
 
 
 
