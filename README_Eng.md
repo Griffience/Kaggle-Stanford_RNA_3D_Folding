@@ -5,7 +5,7 @@
 ***Last Updated :2025-04-12**  
 [![Kaggle Profile](https://img.shields.io/badge/Kaggle-Profile-blue?logo=kaggle)](https://www.kaggle.com/competitions/stanford-rna-3d-folding)
 
-## 项目概述
+## Project Overview 
 This repository documents my first Kaggle competition journey, including baseline model implementations, optimization strategies, and iterative improvements. Key features: 
 - 🚀 ​**Reproducible Code**: Access optimized model implementations.   
 - 📊 ​**Data Pipeline Evolution**: Track preprocessing and feature engineering workflows.   
