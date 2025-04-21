@@ -39,7 +39,9 @@ Yoyoyo～这里是菜鸡学生第一次硬刚模型优化！在研究PointNet的
 2025/4/17 - GPU显存炸缸啦，添加梯度检查点，计算时间换gpu显存 ->结果跑的巨慢   
 2025/4/18 - 练到 Epoch 27 崩溃，Dropout 反向传播出 NaN，貌似是Attention 输出中包含了 NaN，进而影响 Dropout，再进一步反向时传播为 NaN   
 2025/4/20 - 我服了忘了Jupyter是基于 Web 的交互式环境,在服务器上跑的时候，当成终端直接关了,回来一看天塌了QAQ  
-2025/4/21 - 进步啦，51个epoch达到0.060的score
+2025/4/22 - 70个epoch后效果还行，附上run.log，不知道未来效果咋样，但是attn那里还是出现了nan，我之前没有完全修改正确
+<img src="img/Log1.png" alt="runlog4.22" width="30%" title="2025_4_22_run.log">
+
 
 
 
