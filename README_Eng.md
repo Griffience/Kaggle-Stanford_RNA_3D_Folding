@@ -17,7 +17,7 @@ This repository documents my first Kaggle competition journey, including baselin
 > This competition builds on RibonanzaNet (a foundation model from prior Kaggle contests) to predict RNA's full 3D structure. Successful models could advance RNA-based therapies (e.g., CRISPR, cancer immunotherapies) and decode RNA's functional "dark matter."  
 > ​**Competition Type**: Featured Code Competition    
 > ​**Technical Focus**: Deep Learning, Graph Neural Networks (GNNs), Biophysics    
-> ​**Evaluation Metric**: TM-score[1](@ref)  
+> ​**Evaluation Metric**: TM-score    
 
 ### Repository Structure
 
