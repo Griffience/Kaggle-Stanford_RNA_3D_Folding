@@ -24,16 +24,16 @@ This competition is made possible through a worldwide collaborative effort inclu
 
 ### 项目架构
 
-├─ BadVerion  
-│  └─ 存放一开始作者尝试通过 CNN 捕获特征的方法，采用了 Kaggle 上基于 CNN 的 baseline，并基于此进行优化，但发现效果并不理想分数极低  
-├─ Pro  
-│  ├─ Baseline  
-│  │  └─ 我参考并复现的 RibonanzaNet 的核心代码  
-│  ├─ MyOptimization  
-│  │  └─ 我对于 RibonanzaNet 的改造  
-│  └─ README.md  
-│     └─ 关于我的魔改模型的 README  
-└─ README  
-   └─ 有关这次比赛的信息 
+├─ BadVerion - 存放一开始作者尝试通过 CNN 捕获特征的方法，采用了 Kaggle 上基于 CNN 的 baseline，并基于此进行优化，但发现效果并不理想分数极低       
+│           
+├─ Pro    
+│    ├─ Baseline - 我参考并复现的 RibonanzaNet 的核心代码   
+│    │       
+│    ├─ MyOptimization - 我对于 RibonanzaNet 的改造     
+│    │    
+│    └─ README.md - 关于我的魔改模型的 README  
+│           
+└─ README - 有关这次比赛的信息 
+        
 
 #### *This Repository is for me(a s1mple student) to record the game,tks for ur comments*
