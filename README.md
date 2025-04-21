@@ -3,7 +3,7 @@
 #### *author - Chengzhi Jiang*
 
 **持续更新中 | 最后更新：2025-04-12**  
-[![Kaggle Profile](https://img.shields.io/badge/Kaggle-Profile-blue?logo=kaggle)](https://www.kaggle.com/code/chengzhijiang/rnafoldingpytorch-v1?scriptVersionId=230963836)
+[![Kaggle Profile](https://img.shields.io/badge/Kaggle-Profile-blue?logo=kaggle)](https://www.kaggle.com/competitions/stanford-rna-3d-folding)
 
 ## 项目概述
 本项目是作者首次参与的Kaggle竞赛代码仓库，记录从基线模型到优化方案的完整迭代过程。通过本仓库您可以：
