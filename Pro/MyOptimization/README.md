@@ -41,8 +41,10 @@ Yoyoyo～这里是菜鸡学生第一次硬刚模型优化！在研究PointNet的
 2025/4/20 - 我服了忘了Jupyter是基于 Web 的交互式环境,在服务器上跑的时候，当成终端直接关了,回来一看天塌了QAQ    
 2025/4/21 - 70个epoch后效果还行，附上run.log，不知道未来效果咋样，但是attn那里还是出现了nan，我之前没有完全修改正确  
 <img src="img/Log1.png" alt="runlog4.22" width="28%" title="2025_4_22_run.log">  
-2025/4/22 - 因为使用了混合精度,第124个epoch(TM-score来到0.079附上run.log)出现报错:NativeDropoutBackward0 returned nan values,尝试调小学习率，取消混合精度。   
+2025/4/22/4:30🕟 - 因为使用了混合精度,第124个epoch(TM-score来到0.079附上run.log)出现报错:NativeDropoutBackward0 returned nan values,尝试调小学习率，取消混合精度。   
 <img src="img/Log2.png" alt="runlog4.22" width="28%" title="2025_4_22_run.log">    
+2025/4/22/21:00🕟 - Kaggle每次上传submission最好还是重新创建一个notebook去跑吧，现在跑出来还行，我直接把还没收敛的中途中断了的未完全体模型拿去做预测，发现精度还是快赶上baseline了(附图如下)    
+<img src="img/Cmp1.png" alt="runlog4.22" width="28%" title="2025_4_22_run.log">     
 
 
 
