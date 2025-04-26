@@ -50,7 +50,9 @@ Yoyoyo～这里是菜鸡学生第一次硬刚模型优化！在研究PointNet的
 2025/4/25 - 再次提交发现已经不能继续比赛了，没能入围前列，只能"参与奖"了，打击很大，但是不妨碍我继续炼丹    
 2025/4/26/00:20🕟 - 卷积和Mamba的融合还是太浅了，整个优化都是直接暴力连接，所以添加一个融合模块 FusionGating()类,并且，在多尺度卷积模块还增加了一个残差连接  
 <img src="img/Code1.png" alt="FusionGatingBlock" width="28%" title="2025_4_26_CodeFixing">    
-2025/4/26/11:20🕟 - 添加了可视化结果与验证集对比的模块;优化后的第100个epoch,TMscore明显上涨哈哈哈哈哈哈哈呜呜呜呜呜
+2025/4/26/11:20🕟 - 添加了可视化结果与验证集对比的模块;优化后的第100个epoch,TMscore明显上涨哈哈哈哈哈哈哈呜呜呜呜呜,对比下来还是差了好多呜呜呜   
+<img src="img/ValidVis0.png" alt="Valid" width="28%" title="2025_4_26_vis">   
+<img src="img/MyVis0.png" alt="My" width="28%" title="2025_4_26_vis">   
 
 
 
