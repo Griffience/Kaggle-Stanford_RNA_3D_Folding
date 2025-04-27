@@ -46,8 +46,7 @@ Yoyoyo～这里是菜鸡学生第一次硬刚模型优化！在研究PointNet的
 2025/4/22/21:00🕟 - Kaggle每次上传submission最好还是重新创建一个notebook去跑吧，现在跑出来还行，我直接把还没收敛的中途中断了的未完全体模型拿去做预测，发现精度还是快赶上baseline了(附图如下)    
 <img src="img/Cmp1.png" alt="runlog4.22" width="15%" title="2025_4_22_cmp">     
 2025/4/23 - n_epoch = 148时梯度爆炸(训练情况如附图),定位到了计算外积的过程中,可恶，没有加保护机制吗?是的没有,而且训练文件代码的梯度裁剪阈值不太好,从5改成1试试.    
-<img src="img/Log3.png" alt="runlog4.22" width="28%" title="2025_4_23_run.log">    
-2025/4/25 - 再次提交发现已经不能继续比赛了，没能入围前列，只能"参与奖"了，打击很大，但是不妨碍我继续炼丹    
+<img src="img/Log3.png" alt="runlog4.22" width="28%" title="2025_4_23_run.log">      
 2025/4/26/00:20🕟 - 卷积和Mamba的融合还是太浅了，整个优化都是直接暴力连接，所以添加一个融合模块 FusionGating()类,并且，在多尺度卷积模块还增加了一个残差连接  
 <img src="img/Code1.png" alt="FusionGatingBlock" width="28%" title="2025_4_26_CodeFixing">    
 2025/4/26/11:20🕟 - 添加了可视化结果与验证集对比的模块;优化后的第100个epoch,TMscore明显上涨哈哈哈哈哈哈哈呜呜呜呜呜,对比下来还是差了好多呜呜呜   
