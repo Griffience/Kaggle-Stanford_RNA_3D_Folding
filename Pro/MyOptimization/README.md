@@ -52,7 +52,8 @@ Yoyoyo～这里是菜鸡学生第一次硬刚模型优化！在研究PointNet的
 2025/4/26/11:20🕟 - 添加了可视化结果与验证集对比的模块;优化后的第100个epoch,TMscore明显上涨哈哈哈哈哈哈哈呜呜呜呜呜,对比下来还是差了好多呜呜呜   
 <img src="img/ValidVis0.png" alt="Valid" width="28%" title="2025_4_26_vis">   
 <img src="img/MyVis0.png" alt="My" width="28%" title="2025_4_26_vis">   
-2025/4/27 - scaler = GradScaler(init_scale=128.0, growth_interval=100) 初始化值太小，检查间隔太长，暂做修改
+2025/4/27/9:25🕟 - scaler = GradScaler(init_scale=128.0, growth_interval=100) 初始化值太小，检查间隔太长，暂做修改
+2025/4/27/17:56🕟 - 突然发现我拿微调架构在跑预训练.......好吧我是智障，重新写一下预训练，这是个很大的问题
 
 
 
