@@ -55,7 +55,7 @@ Yoyoyo～这里是菜鸡学生第一次硬刚模型优化！在研究PointNet的
 2025/4/27/9:25🕟 - scaler = GradScaler(init_scale=128.0, growth_interval=100) 初始化值太小，检查间隔太长，暂做修改      
 2025/4/27/17:56🕟 - 突然发现我拿微调架构在跑预训练.......好吧我是智障，重新写一下预训练，这是个很大的问题     
 2025/5/7 - 预训练计算复杂度真的太高了，计算复杂度换精度的策略是我的思想的核心缺陷，未来有待改进，现在把百分之20都没跑到的预训练模型直接拿去inferrence没有finetune都得到了0.167！！已经很接近baseline了！   
-<img src="img/Cmp2.png" alt="My" width="28%" title="2025_5_7_show_improvement">     
+<img src="img/Cmp2.png" alt="My" width="68%" title="2025_5_7_show_improvement">     
 
 
 
